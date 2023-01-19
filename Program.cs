@@ -36,7 +36,7 @@ internal static class Program
         cache.Connect()
             .SortBy(x => x.Id)
             .Do(changes => changes.ToList().ForEach(change => Console.WriteLine($"Sorted change: {change.Reason}")))
-            .Bind(bindingList)
+            .Bind(sortedBindingList)
             .Subscribe();
 
         sortedBindingList.Events().ListChanged
