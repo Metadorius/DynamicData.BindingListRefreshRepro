@@ -9,9 +9,9 @@ C:\Users\Meta\Repos\work\DynamicData.BindingListRefreshRepro>dotnet run
 Change: Add
 bindingList: Reset
 Sorted change: Add
-bindingList: Reset     
+sortedBindingList: Reset
 === Refreshing item ===
-Change: Refresh        
+Change: Refresh
 Sorted change: Refresh
 
 C:\Users\Meta\Repos\work\DynamicData.BindingListRefreshRepro>
